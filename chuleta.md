@@ -59,7 +59,15 @@ Git Force para Linux, GitHub o Sourcetree para Windows, GitBox para Mac, SmartGi
 
 -En control de versiones centralizado
 
-
+•	Configurar git para que trabaje tras un proxy=
+•	Replicar un repositorio remoto localmente en nuestra máquina= En la página principal del repositorio, encima de la lista de archivos, hacemos clic en Código, copiamos la dirección URL del repositorio, abremos Git Bash y cambia el directorio de trabajo actual a la ubicación en donde queremos clonar el directorio y escribimos git clone + URL.
+•	Replicar un repositorio local en un servidor remoto= Abra Git Bash, cambiar el directorio de trabajo actual en tu proyecto local, utiliza el   comando git init (git init -b main, luego git add, y finalmente git commit -m "First commit".)
+•	Traer los cambios de un repositorio remoto a un repositorio local= git pull 
+•	Resolver los conflictos que se puedan producir al traerse estos cambios=
+•	Enviar los cambios de un repositorio local a uno remoto= git push origin <branch>
+•	Enviar una rama local al repositorio remoto= git push <nombre del repositorio> <nombre de la rama>
+•	Incorporar a ramas locales cambios que se producen en el repositorio remoto= git checkout nombre de rama +git pull <remote repo>
+•	Realizar un pull request entre dos ramas de un repositorio remoto= 
 
 -En control de versiones distribuido
 
