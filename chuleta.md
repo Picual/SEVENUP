@@ -47,13 +47,13 @@ Git Force para Linux, GitHub o Sourcetree para Windows, GitBox para Mac, SmartGi
 
 -En control de versiones local
 
-•	Crear un repositorio local en nuestra máquina.  git init
+•	Crear un repositorio local en nuestra máquina = git init
 •	Preparar ficheros para ser confirmados en un repositorio local= git add + nombre del fichero
-•	Confirmar cambios en un repositorio local=
+•	Confirmar cambios en un repositorio local= git commit
 •	Deshacer la operación de preparar= git Reset + nombre del fichero
 •	Deshacer la operación de confirmar= git checkout – nombre del fichero/ git restore + nombre del fichero 
 •	Identificar el estado de un fichero o ficheros en un repositorio local= git status
-•	Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local=
+•	Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local= git checkout
 •	Crear una rama en un repositorio local= git Branch + nombre de la rama 
 •	Cambiar de rama en la copia local= git switch + nombre de la rama
 
