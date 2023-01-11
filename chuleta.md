@@ -4,7 +4,7 @@
 •	Explicar los siguientes conceptos: repositorio local, copia local, repositorio remoto, log, conflicto.
 -	repositorio local: carpeta o directorio en el disco duro de nuestro propio ordenador
 -	copia local: copia que se realiza en una unidad de almacenamiento que está localmente conectada al equipo.
--	repositorio remoto: Los repositorios remotos son versiones de tu proyecto que están hospedadas en Internet o en cualquier otra red. Puedes tener varios de ellos, y en cada uno tendrás generalmente permisos de solo lectura o de lectura y escritura.
+-	repositorio remoto: Los repositorios remotos son versiones de tu proyecto que están hospedadas en Internet o en cualquier otra red. Puedes tener  varios de ellos, y en cada uno tendrás generalmente permisos de solo lectura o de lectura y escritura.
 -	Log: una grabación secuencial en un archivo o en una base de datos de todos los acontecimientos (eventos o acciones) que afectan a un proceso particular (aplicación, actividad de una red informática, etc.). De esta forma constituye una evidencia del comportamiento del sistema.
 -	Conflicto: Surge un conflicto cuando dos ramas independientes han editado la misma línea de un archivo o cuando un archivo se ha eliminado en una rama, pero editado en la otra.
 
@@ -38,12 +38,12 @@ Git Force para Linux, GitHub o Sourcetree para Windows, GitBox para Mac, SmartGi
 
 -En el interprete de comandos de git-bash
 
-.	Mostrar en que directorio estamos = pwd
-.	Crear un directorio = mkdir + el nombre de la carpeta/archivo
-.	Cambiar de directorio = cd + el nombre de la carpeta/archivo
-.	Mostrar la lista de ficheros de un directorio = ls
-.	Borrar un fichero = git rm + nombre
-.	Cambiar (mover) un fichero de directorio =git  mv + origen + destino 
+•	Mostrar en que directorio estamos = pwd
+•	Crear un directorio = mkdir + el nombre de la carpeta/archivo
+•	Cambiar de directorio = cd + el nombre de la carpeta/archivo
+•	Mostrar la lista de ficheros de un directorio = ls
+•	Borrar un fichero = git rm + nombre
+•	Cambiar (mover) un fichero de directorio =git  mv + origen + destino 
 
 -En control de versiones local
 
