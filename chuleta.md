@@ -16,13 +16,13 @@
 -	ignorado: Un archivo que se le ha indicado explícitamente a Git que ignore.
 
 •	Explicar las siguientes operaciones: Clone, Add, Commit, Push, Pull, Fork y Pull Request.
--	Clone: clone se utiliza para apuntar a un repositorio existente y clonar o copiar dicho repositorio en un nuevo directorio, en otra ubicación.
+-	Clone: Replica un repositorio entero con todo su historial de cambios y actualiza el directorio local.
 -	Add: la operación add añade un cambio del directorio de trabajo en el entorno de ensayo. De este modo, indica a Git que quieres incluir actualizaciones en un archivo concreto en la próxima confirmación.
 -	Commit: El comando commit guardará todos los cambio hechos en la zona de montaje o área de preparación (staging area), junto con una breve descripción del usuario, en un "commit" al repositorio local.
--	Push: se usa para cargar contenido del repositorio local a un repositorio remoto. 
--	Pull: se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido.
+-	Push:Es la operación en la que se envían al repositorio centralizado un commit o conjunto de commits, incluido una rama entera. 
+-	Pull: : Es la operación en la que se actualiza el repositorio local y el directorio local con commits que provienen del repositorio remoto. 
 -	Fork: sirve para crear una copia de un repositorio en tu cuenta de usuario. Ese repositorio copiado será básicamente un clon del repositorio desde el que se hace el fork, pero a partir de entonces el fork vivirá en un espacio diferente y podrá evolucionar de manera distinta, a tu propio cargo.
--	Pull Request: es una operación que consiste en una petición para integrar nuestras propuestas o cambios de código a un proyecto.
+-	Pull Request: Petición que hace el desarrollador de una rama para que sus cambios se fundan con la rama principal. No es una operación de git propiamente dicha, si no un servicio que ofrecen los servidores (como GitLab o GitHub).
 
 •	Traducir entre inglés y español la terminología de los tres puntos anteriores.
 Clone=copiar, add=añadir, commit=confirmar, push=cargar, pull=actualizar, Fork= bifurcación, pull Request= una petición.
