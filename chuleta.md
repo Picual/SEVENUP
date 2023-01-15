@@ -37,11 +37,23 @@ Git Force
 
 ### En el intérprete de comandos de git-bash
 * Mostrar en qué directorio estamos.
+---
+pwd
 * Crear un directorio.
+---
+mkdir <dir>
 * Cambiar de directorio.
+---
+cd <dir>
 * Mostrar la lista de ficheros de un directorio. 
-* Borrar un fichero. 
-* Cambiar (mover) un fichero de directorio. 
+---
+ls [-l] [-a]
+* Borrar un fichero.
+--- 
+rm <file>
+* Cambiar (mover) un fichero de directorio.
+---
+mv <source> <dest>
 
 ### En control de versiones local 
 * Crear un repositorio local en nuestra máquina. 
