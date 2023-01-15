@@ -41,7 +41,7 @@ Git Force
 pwd
 * Crear un directorio.
 ---
-mkdir <dir>
+mkdir dir
 * Cambiar de directorio.
 ---
 cd <dir>
@@ -50,10 +50,10 @@ cd <dir>
 ls [-l] [-a]
 * Borrar un fichero.
 --- 
-rm <file>
+rm file
 * Cambiar (mover) un fichero de directorio.
 ---
-mv <source> <dest>
+mv source dest
 
 ### En control de versiones local 
 * Crear un repositorio local en nuestra máquina.
@@ -61,7 +61,7 @@ mv <source> <dest>
 git init 
 * Preparar ficheros para ser confirmados en un repositorio local.
 ---
-git add <file/files>
+git add file/files
 * Confirmar cambios en un repositorio local. 
 ---
 git commit
@@ -79,10 +79,10 @@ git status
 git restore
 * Crear una rama en un repositorio local.
 ---
-git branch <nombre>
+git branch nombre
 * Cambiar de rama en la copia local.
 ---
-git switch <nombre>
+git switch nombre
 
 ### En control de versiones centralizado
 * Configurar git para que trabaje tras un proxy
@@ -93,21 +93,26 @@ Para borrar el proxy configurado en git: git config --global --unset http.proxy
 
 * Replicar un repositorio remoto localmente en nuestra máquina.
 ---
-git clone <repo>
+git clone repo
 * Repolicar un repositorio local en un servidor remoto.
 ---
 git push -u origin main 
 * Traer los cambios de un repositorio remoto a un repositorio local.
 ---
-git pull origin <repo> 
+git pull origin repo
 * Resolver los conflictos que se puedan producir al traerse estos cambios. 
 * Enviar los cambios de un repositorio local a uno remoto.
 ---
-git push <repo>  
+git push repo  
 * Enviar una rama local al repositorio remoto.
-* Incorporar a ramas locales cambios que se producen en el repositorio remoto.  
+---
+git push -u origin nombre de la rama
+* Incorporar a ramas locales cambios que se producen en el repositorio remoto.
+---
+git pull origin nombre de la rama  
 * Realizar un pull request entre dos ramas de un repositorio remoto. 
-
+---
+Es necesario para esto que hayamos hecho cambios en las ramas: VAmos a github, entramos en el repositorio->code->branch->pull request
 ### En control de versiones distribuido
 
 * Realizar un pull request entre dos repositorios que resultaron de un Fork.  
