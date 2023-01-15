@@ -4,7 +4,8 @@ Guia de Estudio de la parte de Gestión de la Documentación - Control de Versio
 
 ## Conceptos mínimos que tenemos que saber sobre el control de versiones
 * Definir brevemente en qué consiste el control de versiones.
-    Sistema que registra los cambios que ha sufrido un fichero, de manera que se pueda recuperar cualquier versión pasada si fuera necesario compuesto normalmente de un servidor y un cliente.
+---    
+Sistema que registra los cambios que ha sufrido un fichero, de manera que se pueda recuperar cualquier versión pasada si fuera necesario compuesto normalmente de un servidor y un cliente.
 * Explicar los siguientes conceptos: repositorio local, copia local, repositorio remoto, *log*, conflicto.
 * Explicar los siguientes estados de un fichero: sin seguimiento, confirmado, modificado, preparado, ignorado. 
 * Explicar las siguientes operaciones: Clone, Add, Commit, Push, Pull, Fork y Pull Request. 
