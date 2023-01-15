@@ -37,25 +37,60 @@ Git Force
 
 ### En el intérprete de comandos de git-bash
 * Mostrar en qué directorio estamos.
+---
+pwd
 * Crear un directorio.
+---
+mkdir <dir>
 * Cambiar de directorio.
+---
+cd <dir>
 * Mostrar la lista de ficheros de un directorio. 
-* Borrar un fichero. 
-* Cambiar (mover) un fichero de directorio. 
+---
+ls [-l] [-a]
+* Borrar un fichero.
+--- 
+rm <file>
+* Cambiar (mover) un fichero de directorio.
+---
+mv <source> <dest>
 
 ### En control de versiones local 
-* Crear un repositorio local en nuestra máquina. 
+* Crear un repositorio local en nuestra máquina.
+---
+git init 
 * Preparar ficheros para ser confirmados en un repositorio local.
+---
+git add <file/files>
 * Confirmar cambios en un repositorio local. 
+---
+git commit
 * Deshacer la operación de preparar. 
+---
+git reset
 * Deshacer la operación de confirmar.
+---
+git reset --hard o --soft
 * Identificar el estado de un fichero o ficheros en un repositorio local.
+---
+git status
 * Descartar los cambios de un fichero de trabajo mediante la recuperación de una versión almacendada en el repositorio local.
+---
+git restore
 * Crear una rama en un repositorio local.
+---
+git branch <nombre>
 * Cambiar de rama en la copia local.
+---
+git switch <nombre>
 
 ### En control de versiones centralizado
 * Configurar git para que trabaje tras un proxy
+---
+git config --global http.proxy http://proxy.user:proxy.pass@proxy.name_or_ip:proxy.port proxy.user es el usuario que tiene permiso para acceder al proxy. proxy.pass es la password de dicho usuario. proxy.name_or_ip es el nombre DNS o la dirección IP de la máquina que hace de proxy de internet. proxy.port es el puerto por el que se accede a comunicar con el proxy de internet. –global le indica a git que la configuración es propia del usuario y sirve para todos sus repositorios.
+Para consultar el proxy configurado en git: git config --global --get http.proxy
+Para borrar el proxy configurado en git: git config --global --unset http.proxy
+
 * Replicar un repositorio remoto localmente en nuestra máquina.
 * Repolicar un repositorio local en un servidor remoto.  
 * Traer los cambios de un repositorio remoto a un repositorio local. 
