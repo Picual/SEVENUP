@@ -7,11 +7,31 @@ Guia de Estudio de la parte de Gestión de la Documentación - Control de Versio
 ---    
 Sistema que registra los cambios que ha sufrido un fichero, de manera que se pueda recuperar cualquier versión pasada si fuera necesario compuesto normalmente de un servidor y un cliente.
 * Explicar los siguientes conceptos: repositorio local, copia local, repositorio remoto, *log*, conflicto.
+---
+	-repositorio local (Local Repository): base de datos centralizado donde se guardan las distintas versiones de los ficheros sometidos a control de versiones
+	-copia local: (working copy): Es la copia que hacen los usuarios de un fichero sometido a control de versiones. todas las copias locales son contenidas en el DIRECTORIO LOCAL (working directory/working tree/workspace).
+	-repositorio remoto:  versiones del proyecto almacenadas en Internet o en cualquier otra red.
+	-Log o historico: Registro de todos los cambios que se han producido en el repositorio. 
+	-conflicto: Problema que surge cuando los clientes realizan cambios incompatibles entre sí.
+
 * Explicar los siguientes estados de un fichero: sin seguimiento, confirmado, modificado, preparado, ignorado. 
 * Explicar las siguientes operaciones: Clone, Add, Commit, Push, Pull, Fork y Pull Request. 
+---
+	-Clone: Replica un repositorio entero con todo su historial de cambios y actualiza el directorio local
+	-Add: Realiza una copia de un fichero modificado, poniéndola en la zona de preparación para poder ser confirmada. 
+	-Commit: Confirmar los ficheros preparados para su almacenamiento en el repositorio.
+	-Push: Es la operación en la que se envían al repositorio centralizado (remoto) un commit o conjunto de commits, incluido una rama entera.
+	-Pull: Es la operación en la que se actualiza el repositorio local y el directorio local con commits que provienen del repositorio remoto.
+	-Fork: Clone que se hace dentro del mismo servidor. Por ejemplo, el repositorio original y el clonado ambos residen en (xej)GitHub…
+	-Pull Request: (entre repositorios): Petición que hace el desarrollador de que los cambios hechos en su repositorio clonado mediante un FORK sean incorporados al repositorio original
+
 * Traducir entre inglés y español la terminología de los tres puntos anteriores. 
-* Nombrar al menos dos servicios de repositorio remoto para el control de versiones. 
-* Nombrar al menos un cliente gráfico (GUI) para el control de versiones. 
+* Nombrar al menos dos servicios de repositorio remoto para el control de versiones.
+---
+GitHub y GuitLab 
+* Nombrar al menos un cliente gráfico (GUI) para el control de versiones.
+---
+Git Force 
 
 ## Qué tenemos que saber hacer con Git (y GitHub)
 
