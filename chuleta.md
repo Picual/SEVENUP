@@ -92,10 +92,18 @@ Para consultar el proxy configurado en git: git config --global --get http.proxy
 Para borrar el proxy configurado en git: git config --global --unset http.proxy
 
 * Replicar un repositorio remoto localmente en nuestra máquina.
-* Repolicar un repositorio local en un servidor remoto.  
-* Traer los cambios de un repositorio remoto a un repositorio local. 
+---
+git clone <repo>
+* Repolicar un repositorio local en un servidor remoto.
+---
+git push -u origin main 
+* Traer los cambios de un repositorio remoto a un repositorio local.
+---
+git pull origin <repo> 
 * Resolver los conflictos que se puedan producir al traerse estos cambios. 
-* Enviar los cambios de un repositorio local a uno remoto.  
+* Enviar los cambios de un repositorio local a uno remoto.
+---
+git push <repo>  
 * Enviar una rama local al repositorio remoto.
 * Incorporar a ramas locales cambios que se producen en el repositorio remoto.  
 * Realizar un pull request entre dos ramas de un repositorio remoto. 
